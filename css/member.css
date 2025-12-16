@@ -1,0 +1,129 @@
+/* 个人中心概览 */
+.home-overview {
+    height: 132px;
+    background: url(../images/center-bg.png) no-repeat center / cover;
+    display: flex;
+}
+
+.home-overview .user-meta {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.home-overview .user-meta .avatar {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-left: 60px;
+    overflow: hidden;
+}
+
+.home-overview .user-meta .avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-overview .user-meta h4 {
+    padding-left: 26px;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+
+.home-overview .item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-overview .item a {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.home-overview .item a img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 0 auto;
+}
+
+.home-overview .item a p {
+    line-height: 32px;
+}
+
+/* 猜你喜欢 panel */
+.home-panel {
+    background-color: #fff;
+    padding: 0 20px;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.home-panel .header {
+    height: 66px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.home-panel .header h4 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.home-panel .header .more {
+    font-size: 14px;
+    color: #999;
+}
+
+.home-panel .goods-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.home-panel .goods-list li {
+    width: 206px;
+    height: 260px;
+    background: #fdfdfd;
+    border: 1px solid #f5f5f5;
+    transition: all .5s;
+}
+
+.home-panel .goods-list li:hover {
+    transform: translate3d(0, -3px, 0);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-panel .goods-list li img {
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 10px auto;
+}
+
+.home-panel .goods-list li p {
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.home-panel .goods-list li .name {
+    color: #333;
+    margin-top: 10px;
+}
+
+.home-panel .goods-list li .price {
+    color: #cf4444;
+    font-size: 16px;
+    margin-top: 5px;
+}
