@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小兔鲜儿-我的订单</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/order.css">
+</head>
+
+<body>
+    <!-- 快捷导航 shortcut -->
+    <div class="shortcut">
+        <div class="wrapper">
+            <ul>
+                <li><a href="./login.html">请先登录</a></li>
+                <li><a href="./register.html">免费注册</a></li>
+                <li><a href="./order.html">我的订单</a></li>
+                <li><a href="#">会员中心</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">在线客服</a></li>
+                <li><a href="#"><span class="iconfont icon-mobile-phone"></span> 手机版</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 头部 header -->
+    <div class="header wrapper">
+        <!-- logo区域 -->
+        <div class="logo">
+            <h1><a href="./index.html">小兔鲜儿</a></h1>
+        </div>
+        <!-- 导航区域 nav -->
+        <div class="nav">
+            <ul>
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="#">生鲜</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">餐厨</a></li>
+                <li><a href="#">电器</a></li>
+                <li><a href="#">家居</a></li>
+                <li><a href="#">洗护</a></li>
+                <li><a href="#">孕婴</a></li>
+                <li><a href="#">服装</a></li>
+            </ul>
+        </div>
+        <!-- 搜索区域 search -->
+        <div class="search">
+            <span class="iconfont icon-search"></span>
+            <input type="text" placeholder="25216950337钟浩枫">
+        </div>
+        <!-- 购物车 cart -->
+        <div class="cart">
+            <a href="#">
+                <span class="iconfont icon-cart-full"></span>
+                <i>2</i>
+            </a>
+        </div>
+    </div>
+
+    <!-- 个人中心内容 -->
+    <div class="xtx-member-wrapper wrapper">
+        <!-- 侧边栏 -->
+        <div class="xtx-member-aside">
+            <div class="user-manage">
+                <h4>我的账户</h4>
+                <div class="links">
+                    <a href="./member.html">个人中心</a>
+                    <a href="#">消息通知</a>
+                    <a href="#">个人信息</a>
+                    <a href="#">安全设置</a>
+                    <a href="#">地址管理</a>
+                    <a href="#">我的积分</a>
+                    <a href="#">我的足迹</a>
+                    <a href="#">邀请有礼</a>
+                    <a href="#">幸运抽奖</a>
+                </div>
+                <h4>交易管理</h4>
+                <div class="links">
+                    <a href="./order.html" class="active">我的订单</a>
+                    <a href="#">优惠券</a>
+                    <a href="#">礼品卡</a>
+                    <a href="#">评价晒单</a>
+                    <a href="#">售后服务</a>
+                </div>
+                <h4>我的收藏</h4>
+                <div class="links">
+                    <a href="#">收藏的商品</a>
+                    <a href="#">收藏的专题</a>
+                    <a href="#">关注的品牌</a>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧内容 -->
+        <div class="xtx-member-content">
+            <div class="order-header">
+                <div class="tabs">
+                    <a href="#" class="active">全部订单</a>
+                    <a href="#">待付款</a>
+                    <a href="#">待发货</a>
+                    <a href="#">待收货</a>
+                    <a href="#">待评价</a>
+                    <a href="#">已完成</a>
+                    <a href="#">已取消</a>
+                </div>
+            </div>
+            <div class="order-list">
+                <!-- 订单项 -->
+                <div class="order-item">
+                    <div class="head">
+                        <span>下单时间：2025-12-07 19:22:30</span>
+                        <span>订单编号：923482348234823</span>
+                        <span class="status">待付款</span>
+                    </div>
+                    <div class="body">
+                        <div class="column goods">
+                            <img src="./uploads/goods1.png" alt="">
+                            <div class="info">
+                                <p>KN95级莫兰迪色防护口罩</p>
+                                <p class="attr">颜色：白色 尺寸：L</p>
+                            </div>
+                            <div class="price">¥79.00</div>
+                            <div class="count">x1</div>
+                        </div>
+                        <div class="column state">待付款</div>
+                        <div class="column amount">
+                            <p class="red">¥79.00</p>
+                            <p>（含运费：¥0.00）</p>
+                            <p>在线支付</p>
+                        </div>
+                        <div class="column action">
+                            <a href="#" class="btn btn-primary">立即付款</a>
+                            <a href="#" class="btn">查看详情</a>
+                            <a href="#" class="btn">取消订单</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-item">
+                    <div class="head">
+                        <span>下单时间：2025-11-11 10:00:00</span>
+                        <span>订单编号：123456789012345</span>
+                        <span class="status">已完成</span>
+                    </div>
+                    <div class="body">
+                        <div class="column goods">
+                            <img src="./uploads/goods2.png" alt="">
+                            <div class="info">
+                                <p>紫檀外独板三层普洱茶盒</p>
+                                <p class="attr">规格：默认</p>
+                            </div>
+                            <div class="price">¥566.00</div>
+                            <div class="count">x1</div>
+                        </div>
+                        <div class="column state">已完成</div>
+                        <div class="column amount">
+                            <p class="red">¥566.00</p>
+                            <p>（含运费：¥0.00）</p>
+                            <p>在线支付</p>
+                        </div>
+                        <div class="column action">
+                            <a href="#" class="btn btn-primary">再次购买</a>
+                            <a href="#" class="btn">查看详情</a>
+                            <a href="#" class="btn">评价晒单</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 待发货 -->
+                <div class="order-item">
+                    <div class="head">
+                        <span>下单时间：2025-12-08 10:00:00</span>
+                        <span>订单编号：123456789012346</span>
+                        <span class="status">待发货</span>
+                    </div>
+                    <div class="body">
+                        <div class="column goods">
+                            <img src="./uploads/goods3.png" alt="">
+                            <div class="info">
+                                <p>云端沙发组合</p>
+                                <p class="attr">颜色：灰色 尺寸：L</p>
+                            </div>
+                            <div class="price">¥2000.00</div>
+                            <div class="count">x1</div>
+                        </div>
+                        <div class="column state">待发货</div>
+                        <div class="column amount">
+                            <p class="red">¥2000.00</p>
+                            <p>（含运费：¥0.00）</p>
+                            <p>在线支付</p>
+                        </div>
+                        <div class="column action">
+                            <a href="#" class="btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 待收货 -->
+                <div class="order-item">
+                    <div class="head">
+                        <span>下单时间：2025-12-06 14:30:00</span>
+                        <span>订单编号：123456789012347</span>
+                        <span class="status">待收货</span>
+                    </div>
+                    <div class="body">
+                        <div class="column goods">
+                            <img src="./uploads/goods4.png" alt="">
+                            <div class="info">
+                                <p>实木餐桌椅组合</p>
+                                <p class="attr">规格：一桌四椅</p>
+                            </div>
+                            <div class="price">¥3500.00</div>
+                            <div class="count">x1</div>
+                        </div>
+                        <div class="column state">待收货</div>
+                        <div class="column amount">
+                            <p class="red">¥3500.00</p>
+                            <p>（含运费：¥0.00）</p>
+                            <p>在线支付</p>
+                        </div>
+                        <div class="column action">
+                            <a href="#" class="btn btn-primary">确认收货</a>
+                            <a href="#" class="btn">查看详情</a>
+                            <a href="#" class="btn">查看物流</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 待评价 -->
+                <div class="order-item">
+                    <div class="head">
+                        <span>下单时间：2025-12-05 09:00:00</span>
+                        <span>订单编号：123456789012348</span>
+                        <span class="status">待评价</span>
+                    </div>
+                    <div class="body">
+                        <div class="column goods">
+                            <img src="./uploads/home1.png" alt="">
+                            <div class="info">
+                                <p>智能空气净化器</p>
+                                <p class="attr">型号：Pro</p>
+                            </div>
+                            <div class="price">¥1299.00</div>
+                            <div class="count">x1</div>
+                        </div>
+                        <div class="column state">待评价</div>
+                        <div class="column amount">
+                            <p class="red">¥1299.00</p>
+                            <p>（含运费：¥0.00）</p>
+                            <p>在线支付</p>
+                        </div>
+                        <div class="column action">
+                            <a href="#" class="btn btn-primary">评价晒单</a>
+                            <a href="#" class="btn">查看详情</a>
+                            <a href="#" class="btn">申请售后</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 已取消 -->
+                <div class="order-item">
+                    <div class="head">
+                        <span>下单时间：2025-12-01 12:00:00</span>
+                        <span>订单编号：123456789012349</span>
+                        <span class="status">已取消</span>
+                    </div>
+                    <div class="body">
+                        <div class="column goods">
+                            <img src="./uploads/home2.png" alt="">
+                            <div class="info">
+                                <p>全棉四件套</p>
+                                <p class="attr">尺寸：1.8m床</p>
+                            </div>
+                            <div class="price">¥299.00</div>
+                            <div class="count">x1</div>
+                        </div>
+                        <div class="column state">已取消</div>
+                        <div class="column amount">
+                            <p class="red">¥299.00</p>
+                            <p>（含运费：¥0.00）</p>
+                            <p>在线支付</p>
+                        </div>
+                        <div class="column action">
+                            <a href="#" class="btn">查看详情</a>
+                            <a href="#" class="btn">删除订单</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 footer -->
+    <div class="footer">
+        <div class="wrapper">
+            <!-- 服务 service -->
+            <div class="service">
+                <ul>
+                    <li><a href="#">
+                            <h5>价格亲民</h5>
+                        </a></li>
+                    <li><a href="#">
+                            <h5>物流快捷</h5>
+                        </a></li>
+                    <li><a href="#">
+                            <h5>品质新鲜</h5>
+                        </a></li>
+                    <li><a href="#">
+                            <h5>售后无忧</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <!-- 帮助中心 help -->
+            <div class="help">
+                <dl>
+                    <dt>购物指南</dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">支付方式</a></dd>
+                    <dd><a href="#">售后规则</a></dd>
+                </dl>
+                <dl>
+                    <dt>配送方式</dt>
+                    <dd><a href="#">配送运费</a></dd>
+                    <dd><a href="#">配送范围</a></dd>
+                    <dd><a href="#">配送时间</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">平台规则</a></dd>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">问题反馈</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">售后政策</a></dd>
+                    <dd><a href="#">退款说明</a></dd>
+                    <dd><a href="#">取消订单</a></dd>
+                </dl>
+                <dl>
+                    <dt>服务热线</dt>
+                    <dd><a href="#">在线客服 <span class="iconfont icon-customer-service"></span></a></dd>
+                    <dd><a href="#">客服电话 400-0000-000</a></dd>
+                    <dd><a href="#">工作时间 周一至周日 8:00-18:00</a></dd>
+                </dl>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <img src="./images/wechat.png" alt="">
+                            <p>微信公众号</p>
+                        </li>
+                        <li>
+                            <img src="./images/app.png" alt="">
+                            <p>APP下载二维码</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 版权 copyright -->
+            <div class="copyright">
+                <p>
+                    <a href="#">关于我们</a> &nbsp|&nbsp
+                    <a href="#">帮助中心</a> &nbsp|&nbsp
+                    <a href="#">售后服务</a> &nbsp|&nbsp
+                    <a href="#">配送与验收</a> &nbsp|&nbsp
+                    <a href="#">商务合作</a> &nbsp|&nbsp
+                    <a href="#">搜索推荐</a> &nbsp|&nbsp
+                </p>
+                <p><a href="#">@CopyRight © 小兔鲜</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/auth.js"></script>
+    <script src="./js/order.js"></script>
+    <script>
+        // 登录检查
+        (function () {
+            const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+            if (!currentUser) {
+                alert('请先登录查看您的订单');
+                location.href = './login.html';
+            }
+        })();
+    </script>
+</body>
+
+</html>
