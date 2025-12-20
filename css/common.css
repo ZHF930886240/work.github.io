@@ -101,7 +101,7 @@
   display: flex;
   margin-top: 33px;
   margin-right: 27px;
-  width: 170px;
+  width: 171px;
   height: 34px;
   border-bottom: 2px solid #F4F4F4;
   padding-bottom: 4px;
@@ -241,4 +241,5 @@
 
 .copyright p {
   margin-bottom: 10px;
+
 }
